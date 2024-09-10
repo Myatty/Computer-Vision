@@ -1,0 +1,19 @@
+# .gitignore
+.vs/
+*.exe
+*.log
+*.obj
+*.bin
+*.user
+*.pdb
+*.idb
+*.ipch
+*.suo
+*.cache
+*.ilk
+*.aps
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+ 

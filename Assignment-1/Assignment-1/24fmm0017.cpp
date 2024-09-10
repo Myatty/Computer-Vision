@@ -21,18 +21,18 @@ int main() {
     }
 
     fps = cap.get(CAP_PROP_FPS);
-    cout << "FPS: " << fps << endl;
+    //cout << "FPS: " << fps << endl;
 
     maxFrameCount = static_cast<int>(fps * 3);  // first 3 seconds
 
     delay = cvRound(1000 / fps);
-    cout << "Delay: " << delay<<" ms"<< endl;
+    //cout << "Delay: " << delay<<" ms"<< endl;
 
     total_frames = cap.get(CAP_PROP_FRAME_COUNT);
-    cout << "Total Frames: " << total_frames << endl;
+    //cout << "Total Frames: " << total_frames << endl;
 
     duration = total_frames / fps;
-    cout << "Duration of the Video: " << duration <<" secs" << endl;
+    //cout << "Duration of the Video: " << duration <<" secs" << endl;
 
     frameCount = 0;
 
