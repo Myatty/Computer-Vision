@@ -13,4 +13,6 @@ Welcome to the repository for my Computer Vision class at Handong University! ðŸ
     <li>Print number of cuurent frames and Total number of Frames</li>
   </ul>
 
+- **Assignment-2**
+
 Feel free to explore and experiment with the code. If you have any questions or run into issues, let me know!
